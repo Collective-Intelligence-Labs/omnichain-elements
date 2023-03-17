@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)secp256k1.net/1.1.0/build/Secp256k1.Net.targets" Condition="Exists('$(NuGetPackageRoot)secp256k1.net/1.1.0/build/Secp256k1.Net.targets')" />
+    <Import Project="$(NuGetPackageRoot)google.protobuf.tools/3.22.1/build/Google.Protobuf.Tools.targets" Condition="Exists('$(NuGetPackageRoot)google.protobuf.tools/3.22.1/build/Google.Protobuf.Tools.targets')" />
+  </ImportGroup>
+</Project>
